@@ -302,3 +302,24 @@ footer {
   75% { transform: translateY(-15px); }
   100% { transform: translateY(0px); }
 }
+.info-section {
+  max-width: 800px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.info-section h2,
+.info-section h3 {
+  color: #00ffcc;
+}
+
+.info-section ul {
+  margin-left: 20px;
+}
+
+.info-section li {
+  margin-bottom: 8px;
+}

@@ -29,9 +29,9 @@ function spin() {
     reel3.innerText = r3;
 
     // Remove spin class after animation
-    reel1.classList.remove("spin");
-    reel2.classList.remove("spin");
-    reel3.classList.remove("spin");
+    //reel1.classList.remove("spin");
+    //reel2.classList.remove("spin");
+    //reel3.classList.remove("spin");
 
     if (r1 === r2 && r2 === r3) {
       updateCoins(500);
